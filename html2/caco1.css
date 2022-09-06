@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+ul{list-style: none; font-size: 2.0em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 19px;
+    border: 3px solid rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(37, 37, 66);
+
+}
+
+button:hover{
+    background-color: rgb(20, 20, 105);
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color:white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/inauguracion-ano-academico-CFT-estatal-Arica-y-Parinacota.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+#requisitos{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url("imagenes/consejos-estudiar-doctorado-ciencias-salud-1280x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 203, 32);
+}
+
+#media .etiqueta{
+    background-color: rgb(255, 203, 32);
+    color: rgb(26, 24, 24);
+}
+
+#media2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 203, 32);
+}
+
+#media2 .etiqueta2{
+    background-color: rgb(255, 203, 32);
+    color: rgb(26, 24, 24);
+}
+
+#requisitos .container{
+    text-align: initial;
+    padding: 150px 12px;
+    margin-left:0px;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(251, 250, 255);
+}
+
+/* SECCION 3*/
+
+#quienes {
+    height: auto;
+}
+
+#quienes .quienes-somos .titulo1{
+    font-size: 40px;
+    border: 1px;
+}
+
+
+
+#quienes .quienes-somos{
+    padding: 40px 600px;
+    background-color: rgb(21, 37, 107);
+    color: white;
+}
+
+#quienes .carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px 600px;
+    text-align: initial;
+    border: 1px 3px solid rgba(0,0,0,0.5);
+    background-color: rgb(255, 198, 41);
+    
+}
+
